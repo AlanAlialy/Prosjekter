@@ -1,0 +1,13 @@
+{
+  "name": "dashboard-reports-workspace",
+  "private": true,
+  "workspaces": [
+    "dashboard-reports"
+  ],
+  "scripts": {
+    "dev": "npm --workspace dashboard-reports run dev",
+    "build": "npm --workspace dashboard-reports run build",
+    "lint": "npm --workspace dashboard-reports run lint",
+    "preview": "npm --workspace dashboard-reports run preview"
+  }
+}
